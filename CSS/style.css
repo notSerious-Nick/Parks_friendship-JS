@@ -1,0 +1,123 @@
+.desktop {
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+    background: #FFFFFF;
+  }
+  .desktop .mainboard {
+    position: absolute;
+    top: 82px;
+    left: 70px;
+    width: 1300px;
+    height: 860px;
+  }
+  .desktop .mainboard .background {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: calc(100% - 0% - 0%);
+    height: calc(100% - 0% - 0%);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  .desktop .mainboard .todolist {
+    position: absolute;
+    top: 51px;
+    right: 43px;
+    width: 350px;
+    height: 758px;
+    opacity: 0.69999999;
+    box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #6D65FB;
+  }
+  .desktop .mainboard .input {
+    position: absolute;
+    top: 9.07%;
+    left: 71.69%;
+    right: 5.23%;
+    bottom: 85.12%;
+    width: calc(100% - 71.69% - 5.23%);
+    height: calc(100% - 9.07% - 85.12%);
+    opacity: 0.89999998;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: 1px solid #6D65FB;
+  }
+  .desktop .mainboard .playlist {
+    position: absolute;
+    top: 445px;
+    right: 436px;
+    width: 428px;
+    height: 364px;
+    opacity: 0.69999999;
+    box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #6D65FB;
+  }
+  .desktop .mainboard .recommendation {
+    position: absolute;
+    top: 294px;
+    right: 907px;
+    width: 350px;
+    height: 286px;
+    opacity: 0.69999999;
+    box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #6D65FB;
+  }
+  .desktop .mainboard .quote {
+    position: absolute;
+    top: 614px;
+    right: 907px;
+    width: 350px;
+    height: 195px;
+    opacity: 0.69999999;
+    box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #6D65FB;
+  }
+  .desktop .mainboard .weather {
+    position: absolute;
+    top: 6.86%;
+    left: 3.31%;
+    right: 69.77%;
+    bottom: 68.84%;
+    width: calc(100% - 3.31% - 69.77%);
+    height: calc(100% - 6.86% - 68.84%);
+    opacity: 0.69999999;
+    box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #6D65FB;
+  }
+  .desktop .mainboard .time {
+    position: absolute;
+    top: 6.05%;
+    left: 36.92%;
+    right: 36.92%;
+    bottom: 54.42%;
+  }
+  .desktop .mainboard .check-btn {
+    position: absolute;
+    top: 11.4%;
+    left: 84.77%;
+    right: 13.85%;
+    bottom: 87.09%;
+  }
+  .desktop .mainboard .delet-btn {
+    position: absolute;
+    top: 10.81%;
+    left: 92.08%;
+    right: 6.23%;
+    bottom: 86.63%;
+  }
+  
