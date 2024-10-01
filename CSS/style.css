@@ -46,13 +46,13 @@ body{
     box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     background: #FFFFFF;
-    border: 3px solid #6D65FB;
+    border: 5px solid #6D65FB;
 }
 
 .desktop .mainboard .input {
     position: absolute;
     top: 9.07%;
-    left: 71.69%;
+    left: 71%;
     right: 5.23%;
     bottom: 85.12%;
     width: calc(100% - 71.69% - 5.23%);
@@ -61,7 +61,7 @@ body{
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     background: #FFFFFF;
-    border: 1px solid #6D65FB;
+    border: 3px solid #6D65FB;
 }
 
 .desktop .mainboard .playlist {
@@ -74,10 +74,10 @@ body{
     box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     background: #FFFFFF;
-    border: 3px solid #6D65FB;
+    border: 5px solid #6D65FB;
 }
 
-.desktop .mainboard .recommendation {
+.desktop .mainboard .weather {
     position: absolute;
     top: 294px;
     right: 907px;
@@ -87,7 +87,7 @@ body{
     box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     background: #FFFFFF;
-    border: 3px solid #6D65FB;
+    border: 5px solid #6D65FB;
 }
 
 .desktop .mainboard .quote {
@@ -100,13 +100,13 @@ body{
     box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     background: #FFFFFF;
-    border: 3px solid #6D65FB;
+    border: 5px solid #6D65FB;
 }
 
-.desktop .mainboard .weather {
+.desktop .mainboard .welcome {
     position: absolute;
     top: 6.86%;
-    left: 3.31%;
+    left: 2.98%;
     right: 69.77%;
     bottom: 68.84%;
     width: calc(100% - 3.31% - 69.77%);
@@ -115,13 +115,13 @@ body{
     box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     background: #FFFFFF;
-    border: 3px solid #6D65FB;
+    border: 5px solid #6D65FB;
 }
 
 .desktop .mainboard .time {
     position: absolute;
     top: 6.05%;
-    left: 36.92%;
+    left: 36.72%;
     right: 36.92%;
     bottom: 54.42%;
     width: 340px;
@@ -130,5 +130,5 @@ body{
     box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 100%;
     background: #FFFFFF;
-    border: 3px solid #6D65FB;
+    border: 5px solid #6D65FB;
 }

@@ -67,3 +67,16 @@
     border-right: 2px solid black;
     background-color: #9265fb;
 }
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome h1{
+    color: #65A8FB;
+    text-shadow: 2px 2px black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size:xx-large;
+}
