@@ -5,15 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Park's freindship</title>
+    <!-- free font from google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css" />
-    <!-- Additional metadata, stylesheets, or scripts can be included here -->
+    <link rel="stylesheet" href="CSS/login.css" />
 </head>
 
 <body>
+    <!-- still don't know why desktop div cannot replace center div?-->
     <div class="center">
         <div class="desktop">
             <div class="mainboard">
-                <img src="https://image-resource.creatie.ai/139570872237660/139570872237662/35d1dfb8f18ebe0dfa7c7f35cb203cab.jpg" class="background" />
+                <img src="https://image-resource.creatie.ai/139570872237660/139570872237662/35d1dfb8f18ebe0dfa7c7f35cb203cab.jpg"
+                    class="background" />
                 <div class="todolist">
                 </div>
                 <div class="input">
@@ -30,8 +38,17 @@
                 </div>
             </div>
         </div>
-        <script src="js/creatie.js"></script>
     </div>
+    <!-- login window-->
+    <div class="login_window">
+        <form class="login_window_form">
+            <p>What is your name?</p>
+            <input type="text" placeholder="your name" maxlength="15" autofocus>
+            <div class="login_window_form-underline"> </div>
+            <button class="login_window_form-btn">Submit</button>
+        </form>
+    </div>
+    <script src="js/creatie.js"></script>
 </body>
 
 </html>

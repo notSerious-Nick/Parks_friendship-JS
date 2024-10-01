@@ -132,9 +132,3 @@ body{
     background: #FFFFFF;
     border: 3px solid #6D65FB;
 }
-
-.desktop {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
