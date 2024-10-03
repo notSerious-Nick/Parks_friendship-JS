@@ -34,6 +34,8 @@ body{
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     object-fit: cover;
+    border: 5px solid #6D65FB;
+    z-index: 1;
 }
 
 .desktop .mainboard .todolist {
@@ -47,6 +49,7 @@ body{
     border-radius: 50px;
     background: #FFFFFF;
     border: 5px solid #6D65FB;
+    z-index: 2;
 }
 
 .desktop .mainboard .input {
@@ -62,6 +65,7 @@ body{
     border-radius: 50px;
     background: #FFFFFF;
     border: 3px solid #6D65FB;
+    z-index: 3;
 }
 
 .desktop .mainboard .playlist {
@@ -75,6 +79,7 @@ body{
     border-radius: 50px;
     background: #FFFFFF;
     border: 5px solid #6D65FB;
+    z-index: 4;
 }
 
 .desktop .mainboard .weather {
@@ -88,6 +93,7 @@ body{
     border-radius: 50px;
     background: #FFFFFF;
     border: 5px solid #6D65FB;
+    z-index: 5;
 }
 
 .desktop .mainboard > .quote {
@@ -101,6 +107,7 @@ body{
     border-radius: 50px;
     background: #FFFFFF;
     border: 5px solid #6D65FB;
+    z-index: 6;
 }
 
 .desktop .mainboard .welcome:not(h1){
@@ -116,6 +123,7 @@ body{
     border-radius: 50px;
     background: #FFFFFF;
     border: 5px solid #6D65FB;
+    z-index: 7;
 }
 
 .desktop .mainboard .time {
@@ -131,4 +139,5 @@ body{
     border-radius: 100%;
     background: #FFFFFF;
     border: 5px solid #6D65FB;
+    z-index: 8;
 }
