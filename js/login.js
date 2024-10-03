@@ -15,7 +15,7 @@ function onLoginSubmit(event){
 }
 
 function paintGreetings(username){
-    input.innerHTML = `What's up`;
+    input.innerHTML = `Welcome!`;
     names.innerHTML = `${username}`;
 }
 const savedName = localStorage.getItem(USERNAME_KEY);

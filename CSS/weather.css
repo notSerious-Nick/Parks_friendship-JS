@@ -1,19 +1,26 @@
-.quote_quote{
-    padding: 5px;
+.weather_location{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size:large;
+    font-size:x-large;
     background-color: #1e1c4400;
     color: #65A8FB;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
-.quote_author{
-    padding: 5px;
+.weather_weather{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    font-size: medium;
+    font-size:larger;
+    background-color: #1e1c4400;
+    color: #DD65FB;
+    text-shadow: 1px 1px black;
+}
+.weather_temperture{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size:larger;
     background-color: #1e1c4400;
     color: #DD65FB;
     text-shadow: 1px 1px black;

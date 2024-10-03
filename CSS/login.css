@@ -74,7 +74,7 @@
     flex-direction: column;
 }
 .welcome h1:first-child{
-    color: #65A8FB;
+    color: #9265fb;
     text-shadow: 2px 2px black;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -83,7 +83,7 @@
 }
 
 .welcome h1:last-child{
-    color: #DD65FB;
+    color: #FB6583;
     text-shadow: 2px 2px black;
     font-family: "Poppins", sans-serif;
     font-weight: 700;

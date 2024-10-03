@@ -94,6 +94,11 @@ body{
     background: #FFFFFF;
     border: 5px solid #6D65FB;
     z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
 }
 
 .desktop .mainboard .quote {
