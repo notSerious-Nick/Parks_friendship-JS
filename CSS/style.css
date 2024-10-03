@@ -90,7 +90,7 @@ body{
     border: 5px solid #6D65FB;
 }
 
-.desktop .mainboard .quote {
+.desktop .mainboard > .quote {
     position: absolute;
     top: 614px;
     right: 907px;
@@ -103,7 +103,7 @@ body{
     border: 5px solid #6D65FB;
 }
 
-.desktop .mainboard .welcome {
+.desktop .mainboard .welcome:not(h1){
     position: absolute;
     top: 6.86%;
     left: 2.98%;

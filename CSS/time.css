@@ -1,0 +1,31 @@
+.time{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr,
+.min,
+.sec{
+    position: absolute;
+    height: 140px;
+    width: 8px;
+    border-radius: 50px;
+    background-color: #6D65FB;
+    left: 163.5px;
+    bottom: 170px;
+    transform-origin: bottom;
+}
+.min{
+    background-color: black;
+    height: 110px;
+    width: 9px;
+    left: 162.6px;
+}
+
+.hr{
+    height: 80px;
+    width: 10px;
+    background-color: black;
+    left: 162.5px;
+}

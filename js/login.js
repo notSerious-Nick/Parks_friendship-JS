@@ -1,7 +1,8 @@
 const loginWindow = document.querySelector(".login_window");
 const loginInput = document.querySelector(".login_window_form-input");
 const btn = document.querySelector(".login_window_form-btn");
-const nameInput = document.querySelector(".welcome_input")
+const input = document.querySelector(".welcome_input");
+const names = document.querySelector(".welcome_name");
 
 const USERNAME_KEY = "username";
 
@@ -14,7 +15,8 @@ function onLoginSubmit(event){
 }
 
 function paintGreetings(username){
-    nameInput.innerHTML = `What's up <br/> ${username}`;
+    input.innerHTML = `What's up`;
+    names.innerHTML = `${username}`;
 }
 const savedName = localStorage.getItem(USERNAME_KEY);
 
