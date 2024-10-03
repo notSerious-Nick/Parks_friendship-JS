@@ -1,0 +1,20 @@
+.quote_quote{
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size:large;
+    background-color: #1e1c4400;
+    color: #65A8FB;
+    text-shadow: 2px 2px black;
+}
+.quote_author{
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: large;
+    background-color: #1e1c4400;
+    color: #DD65FB;
+    text-shadow: 2px 2px black;
+}

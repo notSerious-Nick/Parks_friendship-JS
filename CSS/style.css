@@ -96,7 +96,7 @@ body{
     z-index: 5;
 }
 
-.desktop .mainboard > .quote {
+.desktop .mainboard .quote {
     position: absolute;
     top: 614px;
     right: 907px;
@@ -108,6 +108,10 @@ body{
     background: #FFFFFF;
     border: 5px solid #6D65FB;
     z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .desktop .mainboard .welcome:not(h1){
