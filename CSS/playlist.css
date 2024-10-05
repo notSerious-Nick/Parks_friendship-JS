@@ -1,0 +1,23 @@
+.playlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.playlist_album{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border: 5px solid #6D65FB;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playlist_album_disk{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    border: 5px solid #6D65FB;
+    border-radius: 100%;
+}
