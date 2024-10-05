@@ -14,10 +14,75 @@
     justify-content: center;
     align-items: center;
 }
-.playlist_album_disk{
+.playlist_play-animation{
+    animation: rotate infinite 15s linear;
+}
+.playlist_album_cover{
+    object-fit:contain;
+    border-radius: 100%;
+}
+.playlist_album_cover_disk{
+    position: absolute;
     width: 20px;
     height: 20px;
     background-color: aliceblue;
     border: 5px solid #6D65FB;
     border-radius: 100%;
 }
+.playlist_btn{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.playlist_btn_prev,
+.playlist_btn_play,
+.playlist_btn_next{
+    height: 60px;
+    width: 90px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 4px solid #6D65FB;
+}
+.playlist_btn_prev i,
+.playlist_btn_play i,
+.playlist_btn_next i{
+    font-size: xx-large;
+}
+
+.playlist_btn_prev:hover,
+.playlist_btn_play:hover,
+.playlist_btn_next:hover{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: #9265fb;
+}
+.playlist_name{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size:x-large;
+    background-color: #1e1c4400;
+    color: #65A8FB;
+    text-shadow: 2px 2px black;
+    margin-bottom: 0px;
+}
+.playlist_artisit{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size:larger;
+    background-color: #1e1c4400;
+    color: #DD65FB;
+    text-shadow: 1px 1px black;
+    margin: 8px;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

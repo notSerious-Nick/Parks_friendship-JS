@@ -29,12 +29,30 @@
                 </div>
                 <div class="input">
                 </div>
-                <div class="playlist">
+                <form class="playlist">
+
+                    <audio src="musics/good days.mp3" class="playlist_path"></audio>
                     <div class="playlist_album">
-                        <div class="playlist_album_disk"></div>
+                        <img class="playlist_album_cover" src="img/playlist_albums/good days.jpg"> 
+                            <div class="playlist_album_cover_disk"></div>
+                        </img>
                     </div>
-                    
-                </div>
+
+                    <h1 class="playlist_name">good days</h1>
+                    <h3 class="playlist_artisit">Keshi</h3>
+
+                    <div class="playlist_btn">
+                        <button class="playlist_btn_prev">
+                            <i class="fa-solid fa-backward"></i>
+                        </button>
+                        <button class="playlist_btn_play">
+                            <i id="play" class="fa-duotone fa-solid fa-play"></i>
+                        </button>
+                        <button class="playlist_btn_next">
+                            <i class="fa-solid fa-forward"></i>
+                        </button>
+                    </div>
+                </form>
                 <div class="weather">
                     <span class="weather_location"></span>
                     <span class="weather_weather"></span>
@@ -68,12 +86,14 @@
             <button class="login_window_form-btn">Log In</button>
         </form>
     </div>
+    <script src="https://kit.fontawesome.com/a768803cee.js" crossorigin="anonymous"></script>
     <script src="js/login.js"></script>
     <script src="js/time.js"></script>
     <script src="js/background.js"></script>
     <script src="js/quote.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/playlist.js"></script>
+    
 </body>
 
 </html>

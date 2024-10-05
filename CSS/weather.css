@@ -7,15 +7,7 @@
     color: #65A8FB;
     text-shadow: 2px 2px black;
 }
-.weather_weather{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-    font-size:larger;
-    background-color: #1e1c4400;
-    color: #DD65FB;
-    text-shadow: 1px 1px black;
-}
+.weather_weather,
 .weather_temperture{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -25,3 +17,4 @@
     color: #DD65FB;
     text-shadow: 1px 1px black;
 }
+
