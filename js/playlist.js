@@ -88,6 +88,14 @@ function clickBack(event){
     }
     changeMusic();
 }
+function nextMusic(){
+    if(counter > musics.length - 2){
+        counter = 0;
+    }else{
+        counter++;
+    }
+    changeMusic();
+}
 back.addEventListener("click", clickBack);
 play.addEventListener("click", clickPause);
 forw.addEventListener("click", clickForw);
