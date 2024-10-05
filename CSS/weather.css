@@ -17,4 +17,9 @@
     color: #DD65FB;
     text-shadow: 1px 1px black;
 }
+.weather_img{
+    height: 140px;
+    font-size: 100px;
+    color: #9265fb;
+}
 

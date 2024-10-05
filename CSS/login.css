@@ -81,6 +81,7 @@
     font-weight: 700;
     font-style: italic;
     font-size:xx-large;
+    margin: 0px;
 }
 
 .welcome h1:last-child{
@@ -90,4 +91,5 @@
     font-weight: 700;
     font-style: italic;
     font-size:xx-large;
+    margin: 0px;
 }
