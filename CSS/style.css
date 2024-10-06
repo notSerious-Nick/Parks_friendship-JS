@@ -44,10 +44,10 @@ body{
     right: 43px;
     width: 350px;
     height: 758px;
-    opacity: 0.69999999;
+    opacity: 0.84999999;
     box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
-    background: #FFFFFF;
+    background: #ffffffcb;
     border: 5px solid #6D65FB;
     z-index: 2;
 }
