@@ -12,7 +12,7 @@
     top: -1%;
 }
 
-.desktop .mainboard .todolist .input {
+.input {
     position: absolute;
     top: 9.07%;
     left: 4%;
@@ -76,6 +76,7 @@
 .todolist-memos div button:last-child{
     left: 87.5%;
 }
+
 .todolist-memos div button:hover{
     border-bottom: 2px solid black;
     border-right: 2px solid black;
