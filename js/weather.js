@@ -41,6 +41,6 @@ function onGeoSuccess(postion){
     
 }
 function onGeofail(){
-    userLocation.innerHTML = "We cannot support weather information"
+    userLocation.innerHTML = "We cannot support </br> weather information"
 }
 navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeofail);
