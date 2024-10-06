@@ -39,15 +39,17 @@ function paintTodo(store){
 
     noticeCheckBtn.addEventListener("click", () => {
         noticeMemo.classList.toggle("my-line-through");
-    })
+    });
+
     noticeTrashBtn.addEventListener("click", (event) => {
-        const temp = event.target.parentElement;
+        let temp = event.target.parentElement;
+        if(temp.tagName === "BUTTON"){
+            temp = temp.parentElement;
+        }
         temp.remove();
-        todos = todos.filter((toDo) => {
-            toDo.id !== parseInt(todos.id);
-        })
+        todos = todos.filter((toDo) => toDo.id !== parseInt(temp.id));
         saveTodo();
-    })
+    });
 }
 
 memo.addEventListener("submit", submitMemo);
